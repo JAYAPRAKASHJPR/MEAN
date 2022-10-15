@@ -6,9 +6,6 @@ app.use(express.static(__dirname + '/dist/'));
 
 app.use("/", router)
 
-
-
-
 app.listen(3000, () => {
     console.log("App running on port number 3000")
 })
